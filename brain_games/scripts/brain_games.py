@@ -4,7 +4,8 @@ import brain_games.scripts.cli
 
 def main():
     print('Welcome to the Brain Games!')
-    brain_games.scripts.cli.welcome_user()
+    name = brain_games.scripts.cli.welcome_user()
+    return name
 
 
 if __name__ == '__main__':
