@@ -7,11 +7,13 @@ def ask_number(name):
     even = True if number % 2 == 0 else False
     print(f'Question: {number}')
     answer = prompt.string('Your answer: ')
+    not_answer = 'yes' if even else 'no'
     if (even and answer == 'yes') or (not even and answer == 'no'):
         print('Correct!')
         return True
     else:
-        print(f"""'yes' is wrong answer ;(. Correct answer was 'no'.
+        
+        print(f"""'{answer}' is wrong answer ;(. Correct answer was '{not_answer}'.
 Let's try again, {name}!""")
         return False
 
