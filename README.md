@@ -25,7 +25,7 @@ From directory of the repository:
 2. "make build"
 3. "make publish"
 4. "make package-install"
-5. Any command in the list:
+5. To launch the concrete game use any command in the list:
     - "brain-even"
     - "brain-calc"
     - "brain-gcd"
