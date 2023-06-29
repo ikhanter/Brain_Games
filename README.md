@@ -13,3 +13,6 @@
 
 # 'brain-progression' demonstration
 [![brain-progression demonstration](https://asciinema.org/a/sFGMfWpcD4cq8Ujmvg4EjcIAS.svg)](https://asciinema.org/a/sFGMfWpcD4cq8Ujmvg4EjcIAS)
+
+# 'brain-prime' demonstration
+[![brain-prime demonstration](https://asciinema.org/a/RLYmpgWCTrHlJXmyHmkU6pczC.svg)](https://asciinema.org/a/RLYmpgWCTrHlJXmyHmkU6pczC)
