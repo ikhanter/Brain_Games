@@ -16,8 +16,8 @@ Let's try again, {name}!""")
 
 def count_correct(name, game_function1, game_function2, game_function3):
     correct_answer = 0
+    result = (game_function1, game_function2, game_function3)
     while correct_answer < 3:
-        result = (game_function1, game_function2, game_function3)
         for game in result:
             question(game[0])
             if check_answer(name, game[1]):
