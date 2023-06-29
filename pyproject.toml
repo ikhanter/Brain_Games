@@ -1,10 +1,16 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "5 console games pack: Even or Not (brain-even), Calculator (brain-calc), Greatest Common Divisor (brain-gcd),
+Arithmetic Progression (brain-progression), Prime or Not (brain-prime)."
 authors = ["Yulian <khantermail@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
+repository = "https://github.com/ikhanter/python-project-49"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Games/Entertainment"
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
