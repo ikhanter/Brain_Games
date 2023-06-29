@@ -1,5 +1,6 @@
 #!usr/bin/env python3
-import random, brain_games.scripts.brain_games as brain_games
+import random
+import brain_games.scripts.brain_games as brain_games
 import brain_games.engine.engine as engine
 
 
@@ -11,6 +12,7 @@ def prime_game():
             prime = 'no'
             break
     return (number, prime)
+
 
 def main():
     name = brain_games.main()

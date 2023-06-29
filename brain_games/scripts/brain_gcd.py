@@ -1,5 +1,6 @@
 #!usr/bin/env python3
-import random, brain_games.scripts.brain_games as brain_games
+import random
+import brain_games.scripts.brain_games as brain_games
 import brain_games.engine.engine as engine
 
 
@@ -12,6 +13,7 @@ def gcd_game():
         if (number1 % i == 0) and (number2 % i == 0):
             result = i
     return (f'{number1} {number2}', str(result))
+
 
 def main():
     name = brain_games.main()

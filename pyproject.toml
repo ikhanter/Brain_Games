@@ -1,8 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "5 console games pack: Even or Not (brain-even), Calculator (brain-calc), Greatest Common Divisor (brain-gcd),
-Arithmetic Progression (brain-progression), Prime or Not (brain-prime)."
+description = "5 console games pack: Even or Not (brain-even), Calculator (brain-calc), Greatest Common Divisor (brain-gcd), Arithmetic Progression (brain-progression), Prime or Not (brain-prime)."
 authors = ["Yulian <khantermail@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
