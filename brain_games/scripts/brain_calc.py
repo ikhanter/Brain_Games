@@ -4,9 +4,9 @@ import brain_games.engine.engine as engine
 
 
 def calc_game():
-    char = random.choice('*', '+', '-')
-    number1 = random.randint(-99999, 99999)
-    number2 = random.randint(-99999, 99999)
+    char = random.choice(['*', '+', '-'])
+    number1 = random.randint(-99, 99)
+    number2 = random.randint(-99, 99)
     match char:
         case '*':
             correct_str = f'{number1} * {number2}'
@@ -17,11 +17,11 @@ def calc_game():
         case '-':
             correct_str = f'{number1} - {number2}'
             correct_int = number1 - number2
-    return (correct_str, correct_int)
+    return (correct_str, str(correct_int))
 
 def main():
     name = brain_games.main()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('What is the result of the expression?')
     engine.count_correct(name, calc_game(), calc_game(), calc_game())
 
 
