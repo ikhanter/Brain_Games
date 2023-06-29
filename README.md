@@ -12,4 +12,4 @@
 [![brain-gcd demonstration](https://asciinema.org/a/TwvQxFl5RGBMxoU1snOAaHz7T.png)](https://asciinema.org/a/TwvQxFl5RGBMxoU1snOAaHz7T)
 
 # 'brain-progression' demonstration
-[![brain-progression demonstration](https://asciinema.org/a/sFGMfWpcD4cq8Ujmvg4EjcIAS.png)](https://asciinema.org/a/sFGMfWpcD4cq8Ujmvg4EjcIAS)
+[![brain-progression demonstration](https://asciinema.org/a/sFGMfWpcD4cq8Ujmvg4EjcIAS.svg)](https://asciinema.org/a/sFGMfWpcD4cq8Ujmvg4EjcIAS)
