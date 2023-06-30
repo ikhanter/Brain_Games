@@ -2,11 +2,11 @@ import prompt
 
 
 def question(question):
-    print('Question: ', question)
+    print('Question:', question)
 
 
 def check_answer(name, correct_answer: str):
-    answer = prompt.string('Answer: ')
+    answer = prompt.string('Answer:')
     if answer == correct_answer:
         print('Correct!')
         return True
