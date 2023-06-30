@@ -5,10 +5,10 @@ import brain_games.games.brain_even as game_even
 
 
 def main():
-    name = brain_games.main()
+    brain_games.main()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     engine.count_correct(
-        name,
+        brain_games.name,
         game_even.generate_number(),
         game_even.generate_number(),
         game_even.generate_number())

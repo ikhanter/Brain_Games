@@ -3,7 +3,6 @@ import prompt
 
 def question(question):
     print('Question: ', question)
-    return None
 
 
 def check_answer(name, correct_answer: str):

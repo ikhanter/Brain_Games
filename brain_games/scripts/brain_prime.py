@@ -5,10 +5,10 @@ import brain_games.games.brain_prime as prime_game
 
 
 def main():
-    name = brain_games.main()
+    brain_games.main()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     engine.count_correct(
-        name,
+        brain_games.name,
         prime_game.prime_game(),
         prime_game.prime_game(),
         prime_game.prime_game())

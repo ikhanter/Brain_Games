@@ -5,10 +5,10 @@ import brain_games.games.brain_progression as progression_game
 
 
 def main():
-    name = brain_games.main()
+    brain_games.main()
     print('What number is missing in the progression?')
     engine.count_correct(
-        name,
+        brain_games.name,
         progression_game.progression_game(),
         progression_game.progression_game(),
         progression_game.progression_game())

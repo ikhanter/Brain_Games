@@ -5,10 +5,10 @@ import brain_games.games.brain_calc as calc_game
 
 
 def main():
-    name = brain_games.main()
+    brain_games.main()
     print('What is the result of the expression?')
     engine.count_correct(
-        name,
+        brain_games.name,
         calc_game.calc_game(),
         calc_game.calc_game(),
         calc_game.calc_game())
