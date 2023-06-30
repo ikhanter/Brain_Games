@@ -11,7 +11,8 @@ def check_answer(name, correct_answer: str):
         print('Correct!')
         return True
     else:
-        print(f"""'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.
+        print(f"""'{answer}' is wrong answer ;(.\
+            Correct answer was '{correct_answer}'.
 Let's try again, {name}!""")
         return False
 
