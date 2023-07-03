@@ -1,5 +1,5 @@
 RANDOM_BOT = 1
-RANDOM_TOP = 9999
+RANDOM_TOP = 999
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
