@@ -1,10 +1,16 @@
+OPERATIONS = ('*', '+', '-')
+RANDOM_BOT = -99
+RANDOM_TOP = 99
+DESCRIPTION = 'What is the result of the expression?'
+
+
 import random
 
 
-def calc_game():
-    char = random.choice(['*', '+', '-'])
-    number1 = random.randint(-99, 99)
-    number2 = random.randint(-99, 99)
+def generate_question_answer():
+    char = random.choice(OPERATIONS)
+    number1 = random.randint(RANDOM_BOT, RANDOM_TOP)
+    number2 = random.randint(RANDOM_BOT, RANDOM_TOP)
     match char:
         case '*':
             correct_str = f'{number1} * {number2}'

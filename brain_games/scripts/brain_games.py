@@ -1,12 +1,9 @@
 #!usr/bin/env python3
-import brain_games.scripts.cli as cli
+import brain_games.cli as cli
 
 
 def main():
-    global name
-    print('Welcome to the Brain Games!')
     cli.welcome_user()
-    name = cli.name
 
 
 if __name__ == '__main__':
