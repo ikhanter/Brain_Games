@@ -1,10 +1,10 @@
+import random
+
+
 OPERATIONS = ('*', '+', '-')
 RANDOM_BOT = -99
 RANDOM_TOP = 99
 DESCRIPTION = 'What is the result of the expression?'
-
-
-import random
 
 
 def generate_question_answer():

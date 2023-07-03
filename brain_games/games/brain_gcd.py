@@ -1,9 +1,9 @@
+import random
+
+
 RANDOM_BOT = 1
 RANDOM_TOP = 99
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
-
-
-import random
 
 
 def generate_question_answer():

@@ -1,8 +1,8 @@
-AMOUNT_OF_GAMES = 3
-
-
 import prompt
 import brain_games.cli as cli
+
+
+AMOUNT_OF_GAMES = 3
 
 
 def check_answer(name, correct_answer: str):

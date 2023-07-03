@@ -1,9 +1,9 @@
+import random
+
+
 RANDOM_BOT = 1
 RANDOM_TOP = 99999
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
-
-
-import random
 
 
 def generate_question_answer():

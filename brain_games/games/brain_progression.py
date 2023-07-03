@@ -1,3 +1,6 @@
+import random
+
+
 RANDOM_NUM_BOT = -999
 RANDOM_NUM_TOP = 999
 RANDOM_STEP_BOT = -99
@@ -7,13 +10,10 @@ AMOUNT_STEPS_TOP = 10
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-import random
-
-
 def generate_question_answer():
     number = random.randint(RANDOM_NUM_BOT, RANDOM_NUM_TOP)
     step = random.randint(RANDOM_STEP_BOT, RANDOM_STEP_TOP)
-    amount_steps = random.randint(AMOUNT_STEPS_BOT,AMOUNT_STEPS_TOP)
+    amount_steps = random.randint(AMOUNT_STEPS_BOT, AMOUNT_STEPS_TOP)
     progression = [number]
     for i in range(amount_steps):
         progression.append(progression[-1] + step)
