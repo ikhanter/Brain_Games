@@ -10,13 +10,18 @@ AMOUNT_STEPS_TOP = 10
 DESCRIPTION = 'What number is missing in the progression?'
 
 
+def generate_progression(initial_number, step, length):
+    progression = [initial_number]
+    for i in range(length):
+        progression.append(progression[-1] + step)
+    return progression
+
+
 def generate_question_answer():
     number = random.randint(RANDOM_NUM_BOT, RANDOM_NUM_TOP)
     step = random.randint(RANDOM_STEP_BOT, RANDOM_STEP_TOP)
     amount_steps = random.randint(AMOUNT_STEPS_BOT, AMOUNT_STEPS_TOP)
-    progression = [number]
-    for i in range(amount_steps):
-        progression.append(progression[-1] + step)
+    progression = generate_progression(number, step, amount_steps)
     erase_index = random.randint(1, len(progression) - 1)
     erase_number = progression[erase_index]
     progression[erase_index] = '..'

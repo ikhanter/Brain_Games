@@ -16,12 +16,12 @@ Let's try again, {name}!""")
     return False
 
 
-def run_game(game_function, abstract):
+def run_game(run_play_logic, abstract):
     name = cli.welcome_user()
     print(abstract)
     for i in range(AMOUNT_OF_GAMES):
-        game = game_function()
-        print(f'Question: {game[0]}')
-        if not check_answer(name, game[1]):
+        question, real_answer = run_play_logic()
+        print(f'Question: {question}')
+        if not check_answer(name, real_answer):
             return
     print(f'Congratulations, {name}!')
