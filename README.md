@@ -32,7 +32,6 @@ From directory of the repository:
     - "brain-progression"
     - "brain-prime"
 
-
 ### 'brain-even' demonstration
 
 [![brain-even demonstration](https://asciinema.org/a/dXNtBowgPaM669PlsU2PosGHL.png)](https://asciinema.org/a/dXNtBowgPaM669PlsU2PosGHL)
